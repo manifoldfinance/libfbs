@@ -1,0 +1,28 @@
+{
+  "name": "libfbs",
+  "version": "0.0.0",
+  "description": "flatbuffers library",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manifoldfinance/libfbs.git"
+  },
+  "author": "sam",
+  "license": "SSPL-1.0",
+  "bugs": {
+    "url": "https://github.com/manifoldfinance/libfbs/issues"
+  },
+  "homepage": "https://github.com/manifoldfinance/libfbs#readme",
+  "devDependencies": {
+    "@types/flatbuffers": "^1.10.0",
+    "@types/node": "^14.14.35",
+    "@types/text-encoding-utf-8": "^1.0.1",
+    "flatbuffers": "^1.12.0"
+  }
+}
