@@ -1,0 +1,21 @@
+*~
+.editorconfig
+.vscode
+/.idea/
+
+# OSX.
+.DS_Store
+
+# Build.
+/build/
+node_modules/
+
+/js/lib
+/python/env
+/python/.eggs
+/python/dist
+/python/reactive_papi*
+/target/
+/.classpath
+/.project
+/.settings/

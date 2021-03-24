@@ -1,0 +1,17 @@
+// -*- mode: idl; fill-column: 80; -*-
+include "Enum.fbs";
+
+// {{namespace}}
+
+table LiquidationOrder {
+    source_ts: int64 (id: 0);
+    source: string (id: 1);
+    market: string (id: 2, required);
+    feed_id: int32 (id: 3);
+    order_id: string (id: 4);
+    flags: uint16 = 0 (id: 5);
+    side: Side (id: 6);
+    qty: double (id: 7);
+    price: double (id: 8);
+    exec_venue: string (id: 9);
+}

@@ -1,0 +1,14 @@
+// -*- mode: idl; fill-column: 80; -*-
+include "Enum.fbs";
+
+// {{namespace}}
+
+table FeedRequest {
+    req_id: string (id: 0);
+    sub_req_type: SubReqType = 1 (id: 1);
+    feed_type: FeedType (id: 2);
+    grouping: uint16 (id: 3);
+    depth: int16 (id: 4);
+    frequency: int16 (id: 5);
+    markets: [string] (id: 6);
+}
